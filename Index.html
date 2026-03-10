@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Companion — оффлайн хоррор</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Видео-фон или тёмная текстура с эффектом помех -->
+    <div class="noise-overlay"></div>
+    <div class="vignette"></div>
+    
+    <div class="container">
+        <!-- Жутковатая шапка -->
+        <header>
+            <div class="logo">
+                <i class="fas fa-skull"></i> STREET COMPANION
+            </div>
+            <nav>
+                <a href="#about">История</a>
+                <a href="#features">Особенности</a>
+                <a href="#download">Скачать</a>
+            </nav>
+        </header>
+
+        <!-- Главный экран с хоррор-атмосферой -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Не выходи на <span class="glitch">улицу</span> один</h1>
+                <p class="subtitle">Оффлайн хоррор, где твой телефон — единственный источник света. Ты слышишь шаги за спиной. Обернись.</p>
+                
+                <!-- Предупреждение (как в старых хоррорах) -->
+                <div class="warning-sign">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>Играть в наушниках обязательно. Ты был предупреждён.</span>
+                </div>
+
+                <!-- Кнопки загрузки в кровавом стиле -->
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-download android">
+                        <i class="fab fa-android"></i> Скачать .APK
+                    </a>
+                    <a href="#" class="btn btn-download ios">
+                        <i class="fab fa-apple"></i> Скачать (iOS)
+                    </a>
+                </div>
+
+                <div class="file-info">
+                    <i class="fas fa-shield-alt"></i> Версия 1.6.3 | 280 MB | Оффлайн
+                </div>
+            </div>
+            
+            <!-- Изображение телефона с искажённым экраном -->
+            <div class="hero-image">
+                <div class="phone-horror">
+                    <div class="screen-glitch"></div>
+                    <div class="static-overlay"></div>
+                    <div class="eye"></div>
+                    <div class="blood-drip"></div>
+                </div>
+                <p class="caption">"Оно смотрит на тебя через камеру"</p>
+            </div>
+        </section>
+
+        <!-- Секция сюжета -->
+        <section id="about" class="about">
+            <h2>⛓️ Сюжет ⛓️</h2>
+            <p>Ты просыпаешься в пустом переулке. Телефон показывает 3:13. Приложение "Street Companion" открыто само. Голос в динамике шепчет: "Не оглядывайся, оно рядом". Ты должен дойти до дома, не встречаясь взглядом с тем, кто следует за тобой по пятам.</p>
+            <p class="small-text">* В игре нет скримеров. Только нарастающее чувство тревоги и реальные звуки за спиной.</p>
+        </section>
+
+        <!-- Особенности игры -->
+        <section id="features" class="features">
+            <h2>🕷️ Особенности 🕷️</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <i class="fas fa-moon"></i>
+                    <h3>Полная темнота</h3>
+                    <p>Экран телефона — твой фонарик. Батарея разряжается в реальном времени.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headphones"></i>
+                    <h3>3D-звук</h3>
+                    <p>Ты слышишь шаги, дыхание и шёпот сзади. Обернись в игре — там никого.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-map"></i>
+                    <h3>Твой реальный район</h3>
+                    <p>Игра использует карты твоего города. Монстры прячутся за знакомыми углами.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Оффлайн</h3>
+                    <p>Никаких серверов. Игра идёт прямо в телефоне. Оно уже здесь.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция загрузки -->
+        <section id="download" class="download">
+            <h2>⬇️ ЗАГРУЗИТЬ ⬇️</h2>
+            <p>Выбери платформу. Помни: после установки удалить игру нельзя.</p>
+            <div class="download-buttons">
+                <a href="#" class="btn-download-large android">
+                    <i class="fab fa-android"></i> Android APK (универсальная)
+                </a>
+                <a href="#" class="btn-download-large ios">
+                    <i class="fab fa-apple"></i> iOS (через TestFlight)
+                </a>
+            </div>
+            <div class="note">
+                <i class="fas fa-eye"></i> Версия для PC выйдет, когда найдётся достаточно смелых.
+            </div>
+        </section>
+
+        <!-- Подвал с намёком на хоррор -->
+        <footer>
+            <p>© 2025 Street Companion. Все права защищены. Не играй в полночь.</p>
+            <p class="glitch-text">они_уже_зная_твой_адрес.dat</p>
+        </footer>
+    </div>
+</body>
+</html>
